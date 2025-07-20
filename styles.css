@@ -203,13 +203,10 @@ body {
   margin-right: auto;
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
-.fuente-jjj {
-  font-family: 'Pacifico', cursive;
-  color: var(--rosado-fuerte);
-}
+
 .font-jjj {
   font-family: "Dancing Script", cursive;
-  color: var(--rosado-fuerte);
+  color: var(--rosado-fuerte); 
 }
 
 footer {
@@ -246,3 +243,4 @@ body.theme-light {
   background-color: #ffffff;
   color: #1a1a1a;
 }
+
