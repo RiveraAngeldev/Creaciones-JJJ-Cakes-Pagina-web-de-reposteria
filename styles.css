@@ -202,6 +202,17 @@ body {
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
 
+footer .d-flex img {
+  height: 50px;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+footer .d-flex img:hover {
+  transform: scale(1.1);
+}
+
 .font-jjj {
   font-family: "Dancing Script", cursive;
   color: var(--rosado-fuerte); 
@@ -357,5 +368,3 @@ body.theme-dark #socials .btn-outline-dark:hover {
   background-color: var(--rosado-fuerte);
   color: #2b1e1a;
 }
-
-
